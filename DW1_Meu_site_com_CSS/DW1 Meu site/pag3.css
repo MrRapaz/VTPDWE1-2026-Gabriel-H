@@ -1,0 +1,10 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#090909;color:#eee;padding:25px;text-align:center}
+header{padding:22px;border-radius:16px;background:linear-gradient(90deg,#ff0080,#7b2cff,#00d4ff)}
+h1{color:white;text-shadow:0 2px 5px #000}
+p{max-width:850px;margin:20px auto;padding:18px;border-radius:12px;background:#ffffff10}
+a{color:#00d9ff}
+body>img{width:30%;min-width:220px;height:220px;object-fit:cover;margin:12px;border-radius:16px;opacity:.9;transition:.4s;box-shadow:0 5px 18px #000}
+body>img:hover{opacity:.35;transform:scale(.96)}
+body{background-image:url('sonho/R.jpg');background-size:180px;background-repeat:repeat;background-blend-mode:soft-light}

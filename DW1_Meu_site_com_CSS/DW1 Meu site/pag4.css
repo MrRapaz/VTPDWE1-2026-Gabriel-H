@@ -1,0 +1,9 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#101010;color:#eee;padding:25px}
+header{padding:22px;border-left:8px solid #ff7a00;background:linear-gradient(90deg,#2b2b2b,#111);border-radius:12px}
+h1{margin:0;background:linear-gradient(90deg,#ff7a00,#ffe259,#ff2d55);-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{padding:12px;border-radius:10px;background:linear-gradient(90deg,#ff7a00,#ff2d55);color:white}
+p{padding:18px;background:#ffffff0d;border-radius:10px;max-width:900px}
+a{color:#ffb347;margin-right:12px}
+a:hover{opacity:.45}
