@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação | Site pessoal</title>
+    <link rel="stylesheet" href="extra.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Documentação das propriedades novas</h1>
+        <p>Registro das técnicas acrescentadas nesta atividade.</p>
+    </header>
+    <nav class="menu" aria-label="Navegação principal">
+    <a href="index.html">Sobre mim</a>
+    <a href="pag2.html">Minha cidade</a>
+    <a href="pag3.html">Meu sonho</a>
+    <a href="pag4.html">Motores</a>
+    <a href="pag5.html">Quem me inspira</a>
+    <a href="infoproduto.html">Infoproduto</a>
+    <a href="extra.html">Documentação</a>
+</nav>
+    <main>
+        <section>
+            <h2>Mobile First</h2>
+            <p>O CSS base foi escrito pensando primeiro em telas pequenas. As regras dentro das Media Queries ampliam e reorganizam o layout quando a largura disponível aumenta.</p>
+        </section>
+        <section class="docs-grid">
+            <article><h2>display: flex</h2><p>Transforma um elemento em um contêiner Flexbox, permitindo organizar seus elementos filhos em linha ou coluna.</p></article>
+            <article><h2>flex-direction</h2><p>Define a direção dos itens do Flexbox. No mobile usamos coluna; nas telas maiores, algumas estruturas passam para linha.</p></article>
+            <article><h2>flex-wrap</h2><p>Permite que os itens de uma linha sejam distribuídos em novas linhas quando não há espaço suficiente.</p></article>
+            <article><h2>gap</h2><p>Cria espaçamento uniforme entre itens de um contêiner Flexbox, evitando depender de margens individuais.</p></article>
+            <article><h2>Media Query</h2><p>Com <code>@media (min-width: ...)</code>, regras adicionais são aplicadas somente a partir de determinada largura de tela.</p></article>
+            <article><h2>order</h2><p>Permite alterar a ordem visual de itens Flexbox. Foi usado na página de venda para adaptar a prioridade visual entre tamanhos de tela.</p></article>
+        </section>
+        <section>
+            <h2>Breakpoints utilizados</h2>
+            <ul>
+                <li><strong>700px:</strong> primeira mudança para layouts maiores, principalmente menu e colunas.</li>
+                <li><strong>1050px:</strong> segunda mudança para ampliar a composição da landing page e apresentar a sidebar de forma mais destacada.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Regras da atividade atendidas</h2>
+            <ul>
+                <li>Viewport em todas as páginas.</li>
+                <li>Menu Flexbox vertical no mobile e horizontal em telas maiores.</li>
+                <li>Layouts em colunas nas páginas Minha cidade e Meu sonho.</li>
+                <li>Landing page de infoproduto com Flexbox e sidebar.</li>
+                <li>Conteúdo específico para mobile e desktop na landing page.</li>
+                <li>CSS externo e ausência de regras de prioridade forçada.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
